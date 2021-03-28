@@ -1,0 +1,8 @@
+{
+    "name": "puppeteer-headless",
+    "version": "1.0.0",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "puppeteer": "^8.0.0"
+    }
+}
