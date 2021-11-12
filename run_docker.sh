@@ -1,5 +1,9 @@
 # To execute script via Docker
 
-clear && docker run -it --rm --name my-login -v "$PWD":/usr/src/app -w /usr/src/app node-latest \
-    node login.js
+# To install Chrome
+#clear && docker run -it --rm --name my-puppeteer node_12 npm install
+#clear && docker run -it --rm --name my-puppeteer node_12 npm audit fix
+
+# To run
+clear && docker run -it --rm --name my-puppeteer -v "$PWD":/app -w /app node_12 node dist/example.js
     
